@@ -1,0 +1,21 @@
+.page-footer{
+    margin-top: 6rem;
+}
+#footer{
+    background-color: #edddeb;
+}
+
+.svg-row{
+    position: relative;
+    height: 10rem;
+    overflow: hidden;
+    svg{
+        position: absolute;
+        bottom: -10%;
+        width: auto;
+        left: -2px;
+        right: -2px;
+        height: 100%;
+
+    }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "nimiq-miner-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm  -rf dist",
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:NoncerPro/nimiq-miner-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NoncerPro/nimiq-miner-website/issues"
+  },
+  "homepage": "http://gpuminer.noncer.pro",
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "bulma": "^0.7.2",
+    "cross-env": "^5.2.0",
+    "laravel-mix": "^4.0.7",
+    "resolve-url-loader": "2.3.1",
+    "sass": "^1.16.0",
+    "sass-loader": "7.*",
+    "string-replace-webpack-plugin": "^0.1.3",
+    "vue": "^2.5.22",
+    "vue-router": "^3.0.2",
+    "vue-template-compiler": "^2.5.22"
+  },
+  "dependencies": {
+    "html-loader": "^0.5.5"
+  }
+}

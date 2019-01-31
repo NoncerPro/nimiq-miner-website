@@ -1,0 +1,43 @@
+.link-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #FFD47E;
+    color: $white;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 0.25s ease-in-out;
+    font-family: $family-secondary;
+    max-width: 150px;
+
+    &:hover, 
+    &:focus{
+        background: #FFC758;
+        color: $white;
+    }
+    
+    .icon-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30% 0;
+
+        i{
+            font-size: 3rem;
+        }
+    }
+
+    .text{
+        margin: 0 10%;
+        padding: 4% 0;
+        border-top: 2px solid $white-ter;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+
+    &.is-disable{
+        opacity: 0.3;
+        pointer-events: none;
+    }
+}
