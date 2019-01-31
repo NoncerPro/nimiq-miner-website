@@ -10,10 +10,10 @@ mix.webpackConfig({
 });
 
 mix
-    .js('./src/main.js','./dist/app.js')
-    .sass('./src/main.sass','./dist/app.css')
-    .copy('./src/index.html','./dist/index.html')
-    .copyDirectory('./src/img', './dist/img')
+    .js('./src/main.js','./docs/app.js')
+    .sass('./src/main.sass','./docs/app.css')
+    .copy('./src/index.html','./docs/index.html')
+    .copyDirectory('./src/img', './docs/img')
     .options({
         processCssUrls: false,
         uglify: true,
