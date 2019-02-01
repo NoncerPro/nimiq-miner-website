@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clean": "rm  -rf docs",
+    "clean": "rm  -rf docs && mkdir docs && touch docs/CNAME && echo 'gpuminer.noncer.pro' >docs/CNAME",
     "dev": "npm run development",
     "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "watch": "npm run development -- --watch",
