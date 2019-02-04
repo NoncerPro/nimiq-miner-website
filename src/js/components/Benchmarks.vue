@@ -8,7 +8,7 @@
                     <td class="has-text-weight-bold">Miner</td>
                     <td class="has-text-weight-bold">Parameters</td>
                     <td class="has-text-weight-bold">OS</td>
-                    
+                    <td class="has-text-weight-bold">Overclock</td>
                 </tr>
             </thead>
             <tbody>
@@ -16,9 +16,9 @@
                     <td class="has-text-weight-bold">{{item.device}}</td>
                     <td><span class="is-size-4 has-text-weight-bold">{{item.hashrate}}</span> <span class="is-size-7">Kh/s</span></td>
                     <td>{{item.miner}} <span class="is-size-7 tag is-warning">{{item.version}}</span></td>
-                    <td>{{parameters(item.parameters)}}</td>
+                    <td class="is-size-7" v-html="parameters(item.parameters)"></td>
                     <td><span class="tag is-info">{{item.os}}</span></td>
-                    <td>{{oc(item.oc)}}</td>
+                    <td class="is-size-7" v-html="oc(item.oc)"></td>
                 </tr>
             </tbody>
         </table>
@@ -39,7 +39,7 @@ export default {
     },
     methods:{
         parameters(params){
-            return `--batchsize=${params.batchsize} --threads=${params.threads}`
+            return `--batchsize=${params.batchsize}<br>--threads=${params.threads}`
         },
         oc(params){
             return `memory:${params.memory}<br>core:${params.core}<br>power:${params.power} w`
