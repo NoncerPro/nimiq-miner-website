@@ -1,0 +1,35 @@
+body{
+    background-color: #F9F9F9
+}
+
+.is-family-secondary{
+    font-family: $family-secondary
+}
+
+img.logo {
+    max-height: 3rem
+}
+
+.home-hero {
+    background-image: url(img/head-bg.png);
+    background-repeat: no-repeat;
+    background-position: 100% 40%;
+    background-size: 50% auto;
+}
+
+.inline-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &>* {
+        margin:8px
+    }
+}
+.inline {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    &>* {
+        margin:8px
+    }
+}
