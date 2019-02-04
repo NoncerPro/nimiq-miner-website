@@ -56,7 +56,7 @@ pause
                 <h2 class="is-size-3 has-text-info">
                     Benchmarks
                 </h2>
-                <p>This is a supervised user contributed Benchmark, want to add yours? <a target="_blank" href="#">Read Here</a></p>
+                <p>This is a supervised user contributed Benchmark, want to add yours? <a target="_blank" href="https://github.com/NoncerPro/nimiq-miner-website/tree/master/benchmarks">Read Here</a></p>
                 <benchmarks></benchmarks>
             </div>
         </div>
