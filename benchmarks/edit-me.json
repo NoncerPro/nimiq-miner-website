@@ -1,24 +1,46 @@
 [
     {
-      "device": "Nvidia 1080ti",
+      "device": "GTX 1080ti",
       "miner": "CUDA",
       "version" : "1.0.1",
       "parameters": {
-          "batchsize": 3,
-          "threads" : 3
+          "batchsize": 92,
+          "threads" : 2
       },
       "os" : "Windows",
-      "hashrate" : 550
+      "hashrate" : 440
     },
     {
         "device": "Nvidia 1080ti",
         "miner": "CUDA",
         "version" : "1.0.1",
         "parameters": {
-            "batchsize": 3,
-            "threads" : 3
+            "batchsize": 50,
+            "threads" : 4
         },
         "os" : "Linux",
-        "hashrate" : 530
-      }
+        "hashrate" : 430
+    },
+    {
+        "device": "Vega 64",
+        "miner": "OpenCL",
+        "version" : "1.0.0",
+        "parameters": {
+            "batchsize": 80,
+            "threads" : 2
+        },
+        "os" : "Windows",
+        "hashrate" : 370
+    },
+    {
+        "device": "RX 580 8GB",
+        "miner": "OpenCL",
+        "version" : "1.0.0",
+        "parameters": {
+            "batchsize": 80,
+            "threads" : 2
+        },
+        "os" : "Windows",
+        "hashrate" : 180
+    },
   ]
