@@ -11,7 +11,7 @@
       "hashrate" : 440
     },
     {
-        "device": "Nvidia 1080ti",
+        "device": "GTX 1080ti",
         "miner": "CUDA",
         "version" : "1.0.1",
         "parameters": {
