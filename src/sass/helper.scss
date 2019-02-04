@@ -5,6 +5,9 @@ body{
 .is-family-secondary{
     font-family: $family-secondary
 }
+.is-family-primary{
+    font-family: $family-primary
+}
 
 img.logo {
     max-height: 3rem
@@ -32,4 +35,16 @@ img.logo {
     &>* {
         margin:8px
     }
+}
+
+.table-container {
+    -webkit-overflow-scrolling: touch;
+    overflow: auto;
+    overflow-y: hidden;
+    max-width: 100%;
+}
+
+.resp-image{
+    width: 100%;
+    height: auto;
 }

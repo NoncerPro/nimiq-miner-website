@@ -5,9 +5,9 @@
                 <div class="container">
                     <div class="columns is-vcentered">
                         <div class="column is-two-fifths">
-                            <h3 class="is-size-5 is-family-secondary is-marginless">NoncerPro</h3>
+                            <h3 class="is-size-5 is-marginless is-family-primary has-text-weight-bold">NoncerPro</h3>
                             <h1 class="is-size-1 is-bold has-text-info m-b-md">Nimiq GPU Miner</h1>
-                            <p class="is-size-5">Powerfull GPU miner done right!</p>
+                            <p class="is-size-5 is-family-secondary">Powerfull GPU miner done right!</p>
                             <div class="inline m-t-md m-r-xl">
                                 <div class="">
                                     <link-box url="https://github.com/NoncerPro/noncerpro-nimiq-cuda/releases" icon="far fa-arrow-alt-circle-down" text="NVIDIA" disable=0></link-box>
@@ -18,7 +18,7 @@
                             </div>
                         </div>
                         <div class="column is-three-fifths">
-                            <img src="img/noncerpro-mac.png" alt="">
+                            <img class="resp-image" src="img/noncerpro-mac.png" alt="">
                         </div>
                     </div>
                     
@@ -56,7 +56,8 @@ pause
                 <h2 class="is-size-3 has-text-info">
                     Benchmarks
                 </h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis quibusdam nihil illo nostrum, in cupiditate vero voluptatum, aperiam sunt inventore commodi nesciunt iste earum repellat porro facilis qui corporis quaerat.</p>
+                <p>This is a supervised user contributed Benchmark, want to add yours? <a target="_blank" href="#">Read Here</a></p>
+                <benchmarks></benchmarks>
             </div>
         </div>
 
@@ -74,10 +75,12 @@ pause
 
 <script>
 import LinkBox from '../components/LinkBox'
+import Benchmarks from '../components/Benchmarks'
 
 export default {
     components:{
-        LinkBox
+        LinkBox,
+        Benchmarks
     }
 }
 </script>

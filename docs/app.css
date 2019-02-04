@@ -315,7 +315,7 @@ button,
 input,
 select,
 textarea {
-  font-family: Abel, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: Montserrat, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 code,
@@ -326,7 +326,7 @@ pre {
 }
 
 body {
-  color: #4a4a4a;
+  color: #5d5d5d;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -387,7 +387,7 @@ strong {
 pre {
   -webkit-overflow-scrolling: touch;
   background-color: whitesmoke;
-  color: #4a4a4a;
+  color: #5d5d5d;
   font-size: 0.875em;
   overflow-x: auto;
   padding: 1.25rem 1.5rem;
@@ -1424,7 +1424,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-color: white;
   border-radius: 6px;
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
-  color: #4a4a4a;
+  color: #5d5d5d;
   display: block;
   padding: 1.25rem;
 }
@@ -1487,7 +1487,7 @@ a.box:active {
 .button.is-text {
   background-color: transparent;
   border-color: transparent;
-  color: #4a4a4a;
+  color: #5d5d5d;
   text-decoration: underline;
 }
 .button.is-text:hover, .button.is-text.is-hovered, .button.is-text:focus, .button.is-text.is-focused {
@@ -3939,13 +3939,13 @@ a.box:active {
   background-color: #dbdbdb;
 }
 .progress::-webkit-progress-value {
-  background-color: #4a4a4a;
+  background-color: #5d5d5d;
 }
 .progress::-moz-progress-bar {
-  background-color: #4a4a4a;
+  background-color: #5d5d5d;
 }
 .progress::-ms-fill {
-  background-color: #4a4a4a;
+  background-color: #5d5d5d;
   border: none;
 }
 .progress.is-white::-webkit-progress-value {
@@ -4251,7 +4251,7 @@ a.box:active {
   align-items: center;
   background-color: whitesmoke;
   border-radius: 4px;
-  color: #4a4a4a;
+  color: #5d5d5d;
   display: inline-flex;
   font-size: 0.75rem;
   height: 2em;
@@ -4569,7 +4569,7 @@ a.tag:hover {
 .card {
   background-color: white;
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
-  color: #4a4a4a;
+  color: #5d5d5d;
   max-width: 100%;
   position: relative;
 }
@@ -4815,7 +4815,7 @@ button.dropdown-item.is-active {
   padding: 0.5em 1em;
 }
 .list-item:not(a) {
-  color: #4a4a4a;
+  color: #5d5d5d;
 }
 .list-item:first-child {
   border-top-left-radius: 4px;
@@ -4916,7 +4916,7 @@ a.list-item {
 }
 .menu-list a {
   border-radius: 2px;
-  color: #4a4a4a;
+  color: #5d5d5d;
   display: block;
   padding: 0.5em 0.75em;
 }
@@ -5081,7 +5081,7 @@ a.list-item {
 
 .message-header {
   align-items: center;
-  background-color: #4a4a4a;
+  background-color: #5d5d5d;
   border-radius: 4px 4px 0 0;
   color: #fff;
   display: flex;
@@ -5107,7 +5107,7 @@ a.list-item {
   border-radius: 4px;
   border-style: solid;
   border-width: 0 0 0 4px;
-  color: #4a4a4a;
+  color: #5d5d5d;
   padding: 1.25em 1.5em;
 }
 .message-body code,
@@ -6379,7 +6379,7 @@ body.has-spaced-navbar-fixed-bottom {
 }
 
 .panel-list a {
-  color: #4a4a4a;
+  color: #5d5d5d;
 }
 .panel-list a:hover {
   color: #3273dc;
@@ -6451,7 +6451,7 @@ label.panel-block:hover {
   border-bottom-color: #dbdbdb;
   border-bottom-style: solid;
   border-bottom-width: 1px;
-  color: #4a4a4a;
+  color: #5d5d5d;
   display: flex;
   justify-content: center;
   margin-bottom: -1px;
@@ -9313,7 +9313,7 @@ label.panel-block:hover {
   text-align: center;
   border-radius: 10px;
   transition: all 0.25s ease-in-out;
-  font-family: Montserrat, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: Abel, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   min-width: 120px;
 }
 .link-box:hover, .link-box:focus {
@@ -9368,7 +9368,7 @@ p {
 }
 
 h1, h2, h3, h4, h5 {
-  font-weight: bold;
+  font-family: Abel, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 h1 {
@@ -9392,6 +9392,10 @@ body {
 }
 
 .is-family-secondary {
+  font-family: Abel, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.is-family-primary {
   font-family: Montserrat, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
@@ -9422,4 +9426,16 @@ img.logo {
 }
 .inline > * {
   margin: 8px;
+}
+
+.table-container {
+  -webkit-overflow-scrolling: touch;
+  overflow: auto;
+  overflow-y: hidden;
+  max-width: 100%;
+}
+
+.resp-image {
+  width: 100%;
+  height: auto;
 }

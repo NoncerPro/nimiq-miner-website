@@ -1,0 +1,24 @@
+[
+    {
+      "device": "Nvidia 1080ti",
+      "miner": "CUDA",
+      "version" : "1.0.1",
+      "parameters": {
+          "batchsize": 3,
+          "threads" : 3
+      },
+      "os" : "Windows",
+      "hashrate" : 550
+    },
+    {
+        "device": "Nvidia 1080ti",
+        "miner": "CUDA",
+        "version" : "1.0.1",
+        "parameters": {
+            "batchsize": 3,
+            "threads" : 3
+        },
+        "os" : "Linux",
+        "hashrate" : 530
+      }
+  ]
