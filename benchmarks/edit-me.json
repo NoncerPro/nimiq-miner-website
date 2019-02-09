@@ -8,11 +8,11 @@
             "threads" : 2
         },
         "os" : "Windows",
-        "hashrate" : 440,
+        "hashrate" : 450,
         "oc": {
-            "memory": "-",
-            "core" : "-",
-            "power" : "-"
+            "memory": "+1000",
+            "core" : "+99",
+            "power" : "250"
         }
     },
     {
@@ -26,9 +26,9 @@
         "os" : "Linux",
         "hashrate" : 430,
         "oc": {
-            "memory": "-",
-            "core" : "-",
-            "power" : "-"
+            "memory": "+1000",
+            "core" : "+99",
+            "power" : "250"
         }
     },
     {
@@ -42,9 +42,9 @@
         "os" : "Windows",
         "hashrate" : 370,
         "oc": {
-            "memory": "-",
-            "core" : "-",
-            "power" : "-"
+            "memory": "1100",
+            "core" : "1300",
+            "power" : "180"
         }
     },
     {
@@ -52,15 +52,15 @@
         "miner": "OpenCL",
         "version" : "1.0.0",
         "parameters": {
-            "batchsize": 80,
-            "threads" : 2
+            "batchsize": 81,
+            "threads" : 1
         },
         "os" : "Windows",
-        "hashrate" : 180,
+        "hashrate" : 198,
         "oc": {
-            "memory": "-",
-            "core" : "-",
-            "power" : "-"
+            "memory": "2200",
+            "core" : "1300",
+            "power" : "130"
         }
     }
   ]
