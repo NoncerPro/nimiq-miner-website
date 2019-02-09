@@ -7,7 +7,7 @@
                         <div class="column is-tablet-center is-full-mobile is-full-tablet is-half-desktop is-one-third-widescreen is-one-third-fullhd">
                             <h3 class="is-size-5 is-marginless is-family-primary has-text-weight-bold">NoncerPro</h3>
                             <h1 class="is-size-1 is-bold has-text-info m-b-md">Nimiq GPU Miner</h1>
-                            <p class="is-size-5 is-family-secondary">Powerfull GPU miner done right!</p>
+                            <p class="is-size-5 is-family-secondary">Powerful GPU miner, done right!</p>
                             <div class="inline inline-tablet-center m-t-md m-r-xl">
                                 <div class="">
                                     <link-box url="https://github.com/NoncerPro/noncerpro-nimiq-cuda/releases" icon="far fa-arrow-alt-circle-down" text="NVIDIA" disable=0></link-box>
