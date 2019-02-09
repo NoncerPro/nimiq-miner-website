@@ -13,7 +13,7 @@
                                     <link-box url="https://github.com/NoncerPro/noncerpro-nimiq-cuda/releases" icon="far fa-arrow-alt-circle-down" text="NVIDIA" disable=0></link-box>
                                 </div>
                                 <div class="">
-                                    <link-box url="#" icon="far fa-arrow-alt-circle-down" text="AMD" disable=1></link-box>
+                                    <link-box url="https://github.com/NoncerPro/noncerpro-nimiq-opencl/releases" icon="far fa-arrow-alt-circle-down" text="AMD" disable=0></link-box>
                                 </div>
                             </div>
                         </div>
@@ -66,7 +66,8 @@ pause
                 <h2 class="is-size-3 has-text-info">
                     Developer Fee
                 </h2>
-                <p>This miner has a fixed 2% dev fee. That means 2 minutes(plus 20 seconds to compensate for reconnecting and possible invalid shares at the begining) in every 100 minutes, miner will run with the donation wallet address.</p>
+                <p>This CUDA miner has a fixed 2% dev fee. That means 2 minutes(plus 20 seconds to compensate for reconnecting and possible invalid shares at the begining) in every 100 minutes, miner will run with the donation wallet address.</p>
+                <p>For the OpenCL/AMD miner, the dev fee is 1%.</p>
             </div>
         </div>
 
