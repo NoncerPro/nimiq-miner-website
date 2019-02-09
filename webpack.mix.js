@@ -18,4 +18,5 @@ mix
     .options({
         processCssUrls: false,
         uglify: true,
-    });
+    })
+    .sourceMaps();

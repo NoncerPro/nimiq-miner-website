@@ -9,16 +9,20 @@ body{
     font-family: $family-primary
 }
 
-img.logo {
-    max-height: 3rem
+
+.home-hero{
+    background-image: none;
+    background-color: #fffdf9;
+}
+@media screen and (min-width: 1088px){
+    .home-hero {
+        background-image: url(img/head-bg.png);
+        background-repeat: no-repeat;
+        background-position: 100% 40%;
+        background-size: 50% auto;
+    }
 }
 
-.home-hero {
-    background-image: url(img/head-bg.png);
-    background-repeat: no-repeat;
-    background-position: 100% 40%;
-    background-size: 50% auto;
-}
 
 .inline-center {
     display: flex;
@@ -36,6 +40,20 @@ img.logo {
         margin:8px
     }
 }
+@media screen and (max-width: 1087px){
+    .is-tablet-center{
+        text-align: center;
+        
+        div[class*='m-r-'] {
+            margin-right:0 !important;
+        }
+    }
+    .inline.inline-tablet-center {
+        justify-content: center;
+    }
+    
+}
+
 
 .table-container {
     -webkit-overflow-scrolling: touch;
@@ -47,4 +65,13 @@ img.logo {
 .resp-image{
     width: 100%;
     height: auto;
+}
+
+.hide-mobile{
+    display:none;
+}
+@media screen and (min-width: 1088px){
+    .hide-mobile {
+        display: initial;
+    }
 }

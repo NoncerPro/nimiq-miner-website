@@ -1,6 +1,7 @@
 {
     "/docs/app.js": "/docs/app.js",
     "/docs/app.css": "/docs/app.css",
+    "/docs/app.js.map": "/docs/app.js.map",
     "/docs/index.html": "/docs/index.html",
     "/docs/benchmarks.json": "/docs/benchmarks.json"
 }

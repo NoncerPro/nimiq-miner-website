@@ -4,11 +4,11 @@
             <div class="hero-body">
                 <div class="container">
                     <div class="columns is-vcentered">
-                        <div class="column is-two-fifths">
+                        <div class="column is-tablet-center is-full-mobile is-full-tablet is-half-desktop is-one-third-widescreen is-one-third-fullhd">
                             <h3 class="is-size-5 is-marginless is-family-primary has-text-weight-bold">NoncerPro</h3>
                             <h1 class="is-size-1 is-bold has-text-info m-b-md">Nimiq GPU Miner</h1>
                             <p class="is-size-5 is-family-secondary">Powerfull GPU miner done right!</p>
-                            <div class="inline m-t-md m-r-xl">
+                            <div class="inline inline-tablet-center m-t-md m-r-xl">
                                 <div class="">
                                     <link-box url="https://github.com/NoncerPro/noncerpro-nimiq-cuda/releases" icon="far fa-arrow-alt-circle-down" text="NVIDIA" disable=0></link-box>
                                 </div>
@@ -17,7 +17,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="column is-three-fifths">
+                        <div class="column hide-mobile">
                             <img class="resp-image" src="img/noncerpro-mac.png" alt="">
                         </div>
                     </div>
@@ -48,6 +48,7 @@ pause
                     </pre>  
                 </p>
                 <p>For more options and settings see the reository readme file for <a target="_blank" href="https://github.com/NoncerPro/noncerpro-nimiq-cuda">CUDA</a> and <a target="_blank" href="https://github.com/NoncerPro/noncerpro-nimiq-opencl">OpenCL</a>.</p>
+                <p>You are more than welcome to join our Discord: <a href="https://discord.gg/DWDnJBy" target="_blank"> <i class="fab fa-discord"></i> </a></p>
             </div>
         </div>
 
