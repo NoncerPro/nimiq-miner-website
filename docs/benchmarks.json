@@ -36,11 +36,11 @@
         "miner": "OpenCL",
         "version" : "1.0.0",
         "parameters": {
-            "batchsize": 80,
-            "threads" : 2
+            "batchsize": 81,
+            "threads" : 1
         },
         "os" : "Windows",
-        "hashrate" : 370,
+        "hashrate" : 373,
         "oc": {
             "memory": "1100",
             "core" : "1300",
@@ -56,7 +56,7 @@
             "threads" : 1
         },
         "os" : "Windows",
-        "hashrate" : 198,
+        "hashrate" : 199,
         "oc": {
             "memory": "2200",
             "core" : "1300",
