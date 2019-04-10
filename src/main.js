@@ -1,27 +1,23 @@
-window._ = require('lodash');
-window.axios = require('axios');
-window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+import DefaultLayout from '~/layouts/Default.vue'
+import '~/assets/css/styles.sass'
 
-window.Vue = require('vue');
-import VueRouter from 'vue-router'
 
-Vue.use(VueRouter)
+export default function (Vue, { head }) {
 
-let routes = [
-    { path: '/', component: require('./js/routes/home.vue').default },
-  ]
+  
 
-const router = new VueRouter({
-  routes
-});
+  head.link.push({
+    rel: 'stylesheet',
+    href: 'https://fonts.googleapis.com/css?family=Open+Sans:400,700,800'
+  },
+  {
+    rel: 'stylesheet',
+    href: 'https://use.fontawesome.com/releases/v5.8.1/css/all.css'
+  })
+  
 
-// global event bus
-window.eventBus = new Vue();
+  // Set default layout as a global component
+  Vue.component('Layout', DefaultLayout)
+}
 
-// global components shared by routes
-Vue.component('NavBar', require('./js/components/Navbar').default);
 
-const app = new Vue({
-    el: '#app',
-    router
-});

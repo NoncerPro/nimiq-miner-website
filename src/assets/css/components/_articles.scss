@@ -1,0 +1,110 @@
+.articles-list{
+
+}
+
+.np-article{
+    background-color: $white;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #00000017;
+    transition: all 0.4s ease, color 0.2s ease;
+    color: $text;
+    
+    .inner{
+        padding: 0 1.7rem;
+    }
+    h2{
+        margin-bottom: 1rem;
+        margin-top: 1.5rem;
+    }
+    .desc{
+        margin-bottom: 1.5rem;
+        font-size: 0.9rem;
+    }
+    .date{
+        font-size: 0.7rem;
+        text-align: right;
+        margin-top:auto;
+        margin-bottom: 1rem;
+        padding: 0 1.7rem;
+    }
+    .img-wrapper{
+        position: relative;
+        padding-top:60%;
+        overflow: hidden;
+        >img{
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate3d(-50%,-50%,0);
+            transition: all 0.4s ease;
+            height: 120%;
+            width: auto;
+        }
+    }
+
+    &:hover{
+        background-color: #455EEE;
+        color: $white;
+        box-shadow: 0 23px 60px #0000004f;
+        transform: translateY(-2%);
+
+        h2{
+            color: $white;
+        }
+        .img-wrapper{
+            >img{
+                transform: translate3d(-50%,-47%,0);
+            }
+        }
+    }
+}
+
+
+
+.article{
+    .img-wrapper{
+        margin-right: -15%;
+        margin-left: -15%;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+    .content{
+        #{$headings} {
+            margin-left: -26px;
+            > a{
+                font-size: 1rem;
+                color: #ccc;
+                position: relative;
+                top: -3px;
+                opacity:0;
+                .icon{
+                    font-family: "Font Awesome 5 Free";
+                    -moz-osx-font-smoothing: grayscale;
+                    -webkit-font-smoothing: antialiased;
+                    display: inline-block;
+                    font-style: normal;
+                    font-variant: normal;
+                    text-rendering: auto;
+                    line-height: 1;
+                    font-size: 12px;
+                }
+                .icon-link:before{
+                    content: "\f0c1";
+                }
+
+            }
+
+            &:hover{
+                >a{
+                    opacity: 1;
+                }
+            }
+
+        }
+    }
+}

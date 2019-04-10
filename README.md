@@ -1,5 +1,5 @@
-# Nimiq GPU miner landing page 
+# Gridsome Starter Blog
 
-Live website: [https://noncer.pro](https://noncer.pro)
+This is a minimal starter blog kit for markdown.
 
-[Add your hashrate](https://github.com/NoncerPro/nimiq-miner-website/tree/master/benchmarks)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gridsome/gridsome-starter-markdown-blog)

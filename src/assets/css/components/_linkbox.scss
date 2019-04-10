@@ -1,0 +1,46 @@
+.link-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #fff;
+    color: $c-blue-dark;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 0.25s ease-in-out;
+    font-family: $family-secondary;
+    min-width: 150px;
+    box-shadow: 0 0 200px 0 #0000001f;
+
+    &:hover, 
+    &:focus{
+        background: #79b0f5;
+        color: $white;
+        box-shadow: 0 10px 25px -4px #0000001f;
+        transform: translateY(-2%);
+    }
+    
+    .icon-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30% 0;
+
+        i{
+            font-size: 2.4rem;
+        }
+    }
+
+    .text{
+        margin: 0 10%;
+        padding: 4% 0 11%;
+        border-top: 1px dotted #c0c1eb;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+
+    &.is-disable{
+        opacity: 0.3;
+        pointer-events: none;
+    }
+}
